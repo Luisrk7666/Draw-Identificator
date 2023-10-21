@@ -1,0 +1,32 @@
+body {
+    background: rgb(0,1,36);
+background: linear-gradient(90deg, rgb(1, 2, 22) 0%, rgba(241,255,0,1) 35%, rgba(139,24,24,1) 100%); 
+}
+#showsketch{
+    float:right;
+    
+}
+canvas {
+   float:right;
+   margin-right:20%;
+   margin-top:10%;
+    border-radius:20px;
+    border:5px solid white;
+    animation-name:cortex;
+    animation-duration:4s;
+animation-iteration-count:infinite;
+}
+p {
+    padding-top:10px;
+    color:white;
+font-size:28px;
+}
+@keyframes cortex{
+    from{
+        box-shadow:1px 1px 38px green;
+    }
+    to{ 
+        box-shadow:1px 1px 38 px yellow;
+    }
+
+}
